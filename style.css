@@ -1,0 +1,101 @@
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+
+.container{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 500px;
+    width: 1000px;
+}
+
+.box{
+    padding: 30px 0 30px 30px;
+}
+
+.first{
+    width: 300px;
+}
+
+.middle{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+input::placeholder{
+    padding-left: 20px;
+}
+
+.middle a{
+    text-decoration: none;
+    color: blue;
+    margin-top: 10px;
+}
+
+hr{
+    margin: 35px 0;
+    width: 400px;
+}
+
+.log{
+    margin-left: 150px;
+    opacity: 0.5;
+    font-weight: 400;
+}
+
+.button{
+    width: 400px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-content: center;
+    gap: 5px;
+}
+
+.button button{
+    width: 190px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.middle button{
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input{
+    margin-top: 20px;
+    height: 50px;
+    width: 400px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+.image img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.button img{
+    width: 30px;
+    height: 30px;
+}
+
+.footer{
+    margin-top: 30px;
+    width: 400px;
+    text-align: center;
+}
